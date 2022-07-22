@@ -56,7 +56,6 @@ const Posts = (props) => {
     }
 
     const onFilter = ({ id, name }) => {
-        debugger
         setSelectedUser(name)
         let matches = []
         if (id === 0) {
